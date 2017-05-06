@@ -1,0 +1,27 @@
+[
+	{
+		"championName": "Zac",
+		"id": 154,
+		"masteryLevel": 6
+	},
+	{
+		"championName": "Shen",
+		"id": 98,
+		"masteryLevel": 5
+	},
+	{
+		"championName": "Nocturne",
+		"id": 56,
+		"masteryLevel": 5
+	},
+	{
+		"championName": "Zac",
+		"id": 5,
+		"masteryLevel": 5
+	},
+	{
+		"championName": "Xin Zhao",
+		"id": 32,
+		"masteryLevel": 5
+	}
+]

@@ -1,0 +1,5 @@
+package riot
+
+class ChampionListResponse
+{
+}
