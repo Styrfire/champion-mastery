@@ -2,26 +2,51 @@
 	{
 		"championName": "Zac",
 		"id": 154,
-		"masteryLevel": 6
+		"masteryLevel": 6,
+		"averageMastery": "S",
+		"gradeSMatchNum": 21,
+		"gradeAMatchNum": 7,
+		"gradeBMatchNum": 5,
+		"gradeCMatchNum": 2
 	},
 	{
 		"championName": "Shen",
 		"id": 98,
-		"masteryLevel": 5
+		"masteryLevel": 5,
+		"averageMastery": "S",
+		"gradeSMatchNum": 19,
+		"gradeAMatchNum": 10,
+		"gradeBMatchNum": 2,
+		"gradeCMatchNum": 1
 	},
 	{
 		"championName": "Nocturne",
 		"id": 56,
-		"masteryLevel": 5
-	},
-	{
-		"championName": "Zac",
-		"id": 5,
-		"masteryLevel": 5
+		"masteryLevel": 5,
+		"averageMastery": "A",
+		"gradeSMatchNum": 5,
+		"gradeAMatchNum": 16,
+		"gradeBMatchNum": 2,
+		"gradeCMatchNum": 7
 	},
 	{
 		"championName": "Xin Zhao",
+		"id": 5,
+		"masteryLevel": 5,
+		"averageMastery": "B",
+		"gradeSMatchNum": 10,
+		"gradeAMatchNum": 4,
+		"gradeBMatchNum": 5,
+		"gradeCMatchNum": 14
+	},
+	{
+		"championName": "Amumu",
 		"id": 32,
-		"masteryLevel": 5
+		"masteryLevel": 5,
+		"averageMastery": "A",
+		"gradeSMatchNum": 8,
+		"gradeAMatchNum": 21,
+		"gradeBMatchNum": 7,
+		"gradeCMatchNum": 4
 	}
 ]

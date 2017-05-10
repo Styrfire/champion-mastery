@@ -22,10 +22,7 @@ public class ChampionMasteryController
 	@RequestMapping(method = RequestMethod.GET, value = "/topFiveChampions/{summonerName}")
 	public String topFiveChampions(@PathVariable String summonerName)
 	{
-		String returnString = summonerName;
-
-		//return JsonResponses.TOP_FIVE_CHAMPIONS_RESPONSE;
-		return "summonerName = " + returnString;
+		return JsonResponses.TOP_FIVE_CHAMPIONS_RESPONSE;
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/topFiveChampionsTest/(summonerName)")
