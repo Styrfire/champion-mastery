@@ -22,23 +22,30 @@ public class ChampionMasteryController
 	@RequestMapping(method = RequestMethod.GET, value = "/topFiveChampions/{summonerName}")
 	public String topFiveChampions(@PathVariable String summonerName)
 	{
-		return JsonResponses.TOP_FIVE_CHAMPIONS_RESPONSE;
-	}
-
-	@RequestMapping(method = RequestMethod.GET, value = "/topFiveChampionsTest/(summonerName)")
-	public String topFiveChamnpionsTest(@PathVariable String summonerName)
-	{
 		Summoner summoner = api.getSummonerByName(summonerName);
 
 		return "The summoner id = " + summoner.getId();
 	}
 
+	@RequestMapping(method = RequestMethod.GET, value = "/topFiveChampionsTest/{summonerName}")
+	public String topFiveChamnpionsTest(@PathVariable String summonerName)
+	{
+		switch (summonerName)
+		{
+			case "Zann Starfire":
+				return JsonResponses.TOP_FIVE_CHAMPIONS_STYRFIRE;
+			case "Trekin":
+				return JsonResponses.TOP_FIVE_CHAMPIONS_TREKIN;
+			default:
+				return JsonResponses.TOP_FIVE_CHAMPIONS_RESPONSE;
+		}
+	}
+
 	@RequestMapping(method = RequestMethod.GET, value = "/selectedChampion/{championId}")
 	public String selectedChampion(@PathVariable String championId)
 	{
-		String returnString = championId;
 		// last 10 matches
 		// grade
-		return "Champion id = " + returnString;
+		return "Champion id = " + championId;
 	}
 }
